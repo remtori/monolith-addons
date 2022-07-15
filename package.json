@@ -1,0 +1,14 @@
+{
+	"private": true,
+	"scripts": {
+		"bundle": "spack --mode production && node ./bundle.js"
+	},
+	"dependencies": {
+		"preact": "^10.10.0"
+	},
+	"devDependencies": {
+		"@swc/cli": "^0.1.57",
+		"@swc/core": "^1.2.215",
+		"bestzip": "^2.2.1"
+	}
+}

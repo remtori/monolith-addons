@@ -1,0 +1,19 @@
+{
+	"sourceMaps": true,
+	"jsc": {
+		"parser": {
+			"syntax": "typescript",
+			"dynamicImport": true,
+			"tsx": true
+		},
+		"transform": {
+			"react": {
+				"pragma": "h",
+				"pragmaFrag": "Fragment"
+			}
+		},
+		"target": "es2020",
+		"loose": false,
+		"externalHelpers": false
+	}
+}
