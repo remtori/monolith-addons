@@ -7,7 +7,7 @@ const distDir = path.resolve(__dirname, './dist');
 
 (async () => {
 	if (!fs.existsSync(distDir))
-	fs.mkdirSync(distDir);
+		fs.mkdirSync(distDir);
 
 	await zip({
 		source: [

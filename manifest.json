@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "Remtori Monolith",
 	"version": "0.0.1",
-	"description": "A Monolith add-ons that will do all the stuff remtori want its to",
+	"description": "Firefox add-ons for my personal use. Mostly include quality of life improvement!",
 	"content_scripts": [
 		{
 			"matches": ["*://nhentai.net/*"],
